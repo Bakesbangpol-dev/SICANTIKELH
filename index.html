@@ -6,16 +6,24 @@
   <title>Dashboard SPJ</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
     body {
       font-family: 'Poppins', sans-serif;
-      background: url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Banjarbaru_city_hall.jpg") center/cover fixed no-repeat;
+      background-color: #fff;
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4d/Balai_Kota_Banjarbaru.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
       color: #000;
     }
 
     header {
-      background-color: rgba(255, 255, 255, 0.85);
+      background-color: rgba(255, 255, 255, 0.9);
       padding: 20px 40px;
       display: flex;
       justify-content: space-between;
@@ -29,9 +37,14 @@
       color: #000;
     }
 
-    .header-container { display: flex; align-items: center; }
+    .header-container {
+      display: flex;
+      align-items: center;
+    }
 
-    .logo { height: 60px; }
+    .logo {
+      height: 60px;
+    }
 
     .btn-login {
       background-color: #2575fc;
@@ -43,7 +56,9 @@
       transition: background 0.3s;
     }
 
-    .btn-login:hover { background-color: #1e5fcc; }
+    .btn-login:hover {
+      background-color: #1e5fcc;
+    }
 
     .hero {
       text-align: center;
@@ -53,7 +68,11 @@
       border-radius: 12px;
     }
 
-    .hero h2 { font-size: 36px; margin-bottom: 10px; color: #000; }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #000;
+    }
 
     .hero p {
       font-size: 18px;
@@ -70,7 +89,7 @@
     }
 
     .card {
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(255, 255, 255, 0.85);
       border-radius: 12px;
       padding: 30px 20px;
       text-align: center;
@@ -78,7 +97,9 @@
       transition: transform 0.3s;
     }
 
-    .card:hover { transform: translateY(-5px); }
+    .card:hover {
+      transform: translateY(-5px);
+    }
 
     .card h3 {
       font-size: 20px;
@@ -94,7 +115,7 @@
     footer {
       text-align: center;
       padding: 20px;
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(255, 255, 255, 0.85);
       font-size: 14px;
       color: #000;
     }
