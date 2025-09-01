@@ -14,12 +14,22 @@
 
     body {
       font-family: 'Poppins', sans-serif;
-      background-color: #fff;
-      background-image: url("https://radarbanjarmasin.jawapos.com/images/radarbanjarmasin/posts/2024/06/10/1975715281.jpg");
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
+      background: url("https://radarbanjarmasin.jawapos.com/images/radarbanjarmasin/posts/2024/06/10/1975715281.jpg") center/cover fixed no-repeat;
       color: #000;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    /* Overlay transparan */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255,255,255,0.6); /* Putih transparan */
+      z-index: -1;
     }
 
     header {
@@ -63,7 +73,7 @@
     .hero {
       text-align: center;
       padding: 80px 20px 40px;
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(255, 255, 255, 0.85);
       margin: 40px;
       border-radius: 12px;
     }
