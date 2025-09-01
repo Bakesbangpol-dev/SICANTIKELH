@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard SPJ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      background-image: url("https://radarbanjarmasin.jawapos.com/images/radarbanjarmasin/posts/2024/06/10/1975715281.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #000;
+    }
+
+    header {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h2 {
+      font-size: 22px;
+      font-weight: 600;
+      margin-left: 15px;
+      color: #000;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      height: 60px;
+    }
+
+    .btn-login {
+      background-color: #2575fc;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn-login:hover {
+      background-color: #1e5fcc;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px 40px;
+      background-color: rgba(255, 255, 255, 0.8);
+      margin: 40px;
+      border-radius: 12px;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #000;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 30px;
+      color: #333;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 40px 80px;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 12px;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #000;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.85);
+      font-size: 14px;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Lambang_Kota_Banjarbaru.svg/960px-Lambang_Kota_Banjarbaru.svg.png" alt="Logo Kota Banjarbaru" class="logo">
+      <h2>SI CANTIK ELH</h2>
+    </div>
+    <a href="login.html" class="btn-login">Login</a>
+  </header>
+
+  <section class="hero">
+    <h2>Dashboard Monitoring SPJ</h2>
+    <p>Selamat datang! Sistem ini membantu Anda dalam memantau administrasi keuangan dan data surat pertanggungjawaban (SPJ) kegiatan secara transparan, cepat, dan terintegrasi.</p>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h3>Rekap Otomatis</h3>
+      <p>Semua data SPJ direkap secara real-time.</p>
+    </div>
+    <div class="card">
+      <h3>Akses Mudah</h3>
+      <p>Dapat diakses dari berbagai perangkat tanpa perlu instalasi tambahan.</p>
+    </div>
+    <div class="card">
+      <h3>Transparan</h3>
+      <p>Seluruh kegiatan tercatat secara terbuka dan akuntabel.</p>
+    </div>
+    <div class="card">
+      <h3>Keamanan Data</h3>
+      <p>Data SPJ tersimpan dengan aman di platform cloud dan hanya dapat diakses oleh pengguna berwenang.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Sistem Informasi Administrasi Keuangan | Dibuat oleh Kasubbag Keuangan Bakesbangpol Kota Banjarbaru
+  </footer>
+</body>
+</html>
